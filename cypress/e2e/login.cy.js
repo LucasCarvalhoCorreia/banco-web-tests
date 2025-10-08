@@ -1,7 +1,7 @@
 describe('login', () => {
   beforeEach(() => {
     //Arrange
-    cy.visit(Cypress.env('URL'))
+    cy.visit('/')
     cy.screenshot('apos-visitar-a-pagina')
   })
 
@@ -29,7 +29,5 @@ describe('login', () => {
 
     //Assert
     cy.get('.toast').should('have.text', 'Erro no login. Tente novamente.')
-
-    cy.wait(3000)
   })
 })
