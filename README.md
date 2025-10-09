@@ -3,7 +3,7 @@
 Projeto demonstrativo usado na Mentoria 2.0 para mostrar como automatizar testes end-to-end com Cypress + JavaScript, organizando o código com custom commands e gerando relatórios com o `cypress-mochawesome-reporter`.
 
 Objetivo
-- Apresentar aos alunos da Mentoria 2.0 um exemplo prático de automação de testes end-to-end usando Cypress, com organização por comandos personalizados (custom commands) e geração de relatórios HTML.
+- Criar uma automação de testes end-to-end usando Cypress, com organização por comandos personalizados (custom commands) e geração de relatórios HTML.
 
 Componentes do projeto
 - Configuração do Cypress: [cypress.config.js](cypress.config.js)
